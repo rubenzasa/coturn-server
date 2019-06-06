@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y coturn && apt-get clean && rm -rf /var/
 
 ENV TURN_PORT 3478
 ENV TURN_PORT_START 10000
-ENV TURN_PORT_END 20000
+ENV TURN_PORT_END 25010
 ENV TURN_SECRET Noviembre2018.XP
 ENV TURN_SERVER_NAME coturn
 ENV TURN_REALM it2.com
